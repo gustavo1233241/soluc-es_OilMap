@@ -71,23 +71,9 @@ function decreaseFontSize() {
 
 // parte gustavo
 
-const btn=document.querySelector('#btnAcessibilidadecontraste');
-const html = document.querySelector('html');
-let interruptor = true;
-
-btn.addEventListener('click' , () => { 
-  
-if(interruptor){
-    html.setAttribute('class', 'corpo');
-    interruptor = false;
-}
-else{
-html.removeAttribute('class','corpo')
-interruptor = true;
-}
-})
 
 const btn4=document.querySelector('#btnAcessibilidadecontraste1');
+var html = document.querySelector('html')
 
 console.log(btn4);
 
@@ -101,22 +87,8 @@ html.removeAttribute('class','corpo')
 }
 });
 
-const btnletra=document.querySelector('#btnAcessibilidadeletra');
-const html1 = document.querySelector('h2');
-let interruptor1 = true;
 
-btnletra.addEventListener('click' , () => { 
-   
-if(interruptor1){
-    html1.setAttribute('class', 'letra');
-    interruptor1 = false;
-}
-else{
-html1.removeAttribute('class','letra')
-interruptor1 = true;
-}
-})
-
+var html1 = document.querySelector('html')
 const btnletra1=document.querySelector('#btnAcessibilidadeletra1');
 
 console.log(btnletra1)
@@ -147,15 +119,7 @@ var tituloCelular = document.querySelector("#titulo-celular")
 var botao = document.querySelector("#troca-titulo");
 var botaopt = document.querySelector("#troca-titulo1");
 var btningcel = document.querySelector('#trocass12')
-botao.addEventListener("click", function(){
 
-    titulo.innerHTML = "Oil is the energy <br/> that moves the <br/> world!";  
-    tituloCelular.innerHTML = "You are on: PETROBRAS WEBSITE"
-    botaopt.addEventListener("click", function(){
-    titulo.innerHTML = "O petróleo é a <br/> energia que move o <br/> mundo!";  
-    tituloCelular.innerHTML = "Você está em: SITE PETROBRAS"
-    })
-})    
 btningcel.addEventListener("click", function(){
     if(btningcel.checked){  
         titulo.innerHTML = "Oil is the energy <br/> that moves the <br/> world!";  
@@ -192,3 +156,4 @@ function redirecionar1() {
   document.getElementById("pesquisa1").value = "";
 
 }
+

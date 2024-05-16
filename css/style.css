@@ -5,7 +5,9 @@
     src: url(https://fonts.gstatic.com/s/zenkakugothicantique/v15/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cM9TauMItwdlP0eiF9NCCYY662XlrPoX7MjA.2.woff2) format('woff2');
 }
 
-
+.corpo {
+    filter: grayscale(100%);
+}
 
 body {
     margin: 0;
