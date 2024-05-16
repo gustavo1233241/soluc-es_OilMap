@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Zen Kaku Gothic Antique';
+    font-style: normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/zenkakugothicantique/v15/6qLVKYkHvh-nlUpKPAdoVFBtfxDzIn1eCzpB22cM9TauMItwdlP0eiF9NCCYY662XlrPoX7MjA.2.woff2) format('woff2');
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../imagem/Background-Image-PC.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: top;
+    overflow-y: scroll;
+    width: 100%;
+    height: 900px;
+
+}
+#cabecalho{
+    display: flex;
+    position: relative;
+}
+
+/* RETANGULO BRANCO LOGO PETROBRAS PAGINA INICIAL */
+/* #retangulo {
+    top: -110px;
+    margin-left: -80px;
+    position: absolute;
+    height: 400px;
+    width: 950px;
+    
+} */
+
+#retangulo{
+    top: 0%;
+    position: absolute;
+}
+
+#petrobras{
+    position: absolute;
+    padding: 35px;
+    margin-left: 70px;
+}
+
+.menu-verde{
+    position: absolute;
+    margin-left: -14px;
+    margin-top: 20px ;
+}
+
+/* TEXTO PRINCIPAL */
+h2 {
+    font-family: 'Zen Kaku Gothic Antique';
+    top: 1px;
+    font-size: 50px;
+    text-align: justify;
+    justify-content: column;
+    text-align: right;
+    padding: 40px;
+    font-weight: 400;
+    color: aliceblue;
+    border: none;
+    text-justify: distribute;
+    position: relative;
+    right: 100px;
+
+}
+
+/* FORMA VERDE EM CIMA DO MAPA */
+.main-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 630px;
+    background-color: transparent;
+}
+
+.acessibilidade {
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    right: 200px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 10px solid #ffffff;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+.font-buttons-container {
+    display: flex;
+    padding: 5px 15px;
+    margin-left: 70%;
+    margin-top: 55px;
+}
+
+/* BARRA DE PESQUISA */
+#pesquisa {
+    background-image: url(../imagem/Lupa.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: right;
+    margin-top: 48px;
+    right: 20px;
+}
+
+input[type=text] {
+    width: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 10%;
+}
+
+/* CONTAINER DOS BOTES DA ACESSIBILIDADE */ 
+.button-container {
+    display: flex;
+    position: relative;
+    margin-left: 1%;
+    /* width: 20%; */
+    height: 33px;
+    margin-top: 55px;
+}
+
+/* BOTAO LINGUAGEM */
+.button {
+    margin-top: 100px;
+   margin-left: 5%;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #2aaa6e;
+    border: none;
+    cursor: pointer;
+    border-radius: 11px;
+    margin: 0 27px;
+    margin-right: -43px;
+    /* margin-top: 50px; */
+    position: relative;
+    z-index: 1;
+}
+
+.button:hover {
+    background-color: #ffffff;
+}
+
+.selected {
+    background-color: #2aaa6e !important;
+    color: white;
+    z-index: 2;
+}
+
+/* BOTAO CONTRASTE */
+.circle-button {
+    /* margin-top: -32px; */
+    /* margin-left: -20px; */
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(to right, black 50%, white 50%);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.contrast {
+    filter: grayscale(1);
+
+
+}
+
+
+/* BOTOES A+A-*/
+.font-button {
+    padding: 5px 20px;
+    margin-left: 1380px;
+    margin-top: -24px;
+    border: none;
+    margin: -7px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000000;
+    font-size: medium;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+
+#titulo{
+    font-size:55px;
+    width: 100%;
+}
+
+.main-content{
+    position: absolute; /* ou absolute */
+        top: 50%; /* Posicionamento vertical no centro */
+        left: 50%; /* Posicionamento horizontal no centro */
+        transform: translate(-50%, -50%); /* Centralizando o objeto */
+    
+    margin-top: 350px
+}
+#rolin{
+    margin-top: 10px;
+
+
+}
+#verde2{
+    position: absolute; /* ou absolute */
+    top: 110%; /* Posicionamento vertical no centro */
+    left: 50%; /* Posicionamento horizontal no centro */
+    width: 100%;
+    transform: translate(-50%, -50%); /* Centralizando o objeto */
+    background-size: 1920px 440px;
+    margin-top: 180px;
+}
+
+#onda{
+    width: 100%;
+    margin-top: 50px;
+}
+
+svg{
+
+   margin-top: 400px;
+}

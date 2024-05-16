@@ -1,0 +1,249 @@
+#retangulo{
+	top: 0%;
+	position: absolute;
+}
+
+#petrobras{
+	position: absolute;
+	padding: 35px;
+	margin-left: 70px;
+}
+
+#aba_informacao{
+	position: absolute;
+	top: 40px;
+	height: 7%;
+}
+
+#img_cabecalho{
+	background-image: url(../img_pgCampo/img_campo_cabecalho.png);
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 276px;
+}
+
+#escrita_cabecalho p{
+    font-size: 25px;
+    display: flex;
+	padding-top: 235px;
+	margin-right: 20px;
+}
+
+#escrita_cabecalho h2{
+    font-size: 50px;
+    display: flex;
+	padding-top: 200px;
+	margin-left: 20px;
+}
+
+#escrita_cabecalho {
+    display: flex;
+    justify-content: space-between;
+	flex-direction: row;
+	color: #F6F9FF;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+	background: #F6F9FF;
+} 
+
+main.cards {
+    margin: 90px 20px 0 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+main.cards section.card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background: #178864;
+	max-height: 323px;
+	padding: 0 32px 0 0;
+}
+
+main.cards section.card .imagens {
+	width:400px;
+	height: 400px;
+}
+
+main.cards section.card img {
+	width: 100%;
+}
+
+main.cards section.card h3 {
+	margin: 16px 0;
+	color: #000000;
+	font-size: 25px;
+}
+	
+main.cards section.card button {
+	border-radius: 32px;
+	border: 0;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 800;
+	color: #178864;
+	align-items: center;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+}
+
+main.cards section.card button:hover {
+	color: #051C4A;
+}
+
+/* para a tela diminuir e os cards, escrita e botao ficarem em coluna*/
+@media (max-width: 1225px) {
+	main.cards{
+		flex-direction: column;
+		gap: 110px;
+		align-items: center;
+		justify-content: center;
+	}
+	main.cards section.card button {
+		margin-top: 18px;
+		width: 150px;
+	}
+	main.cards section.card #escrita_card{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		position: relative;
+		width: 400px;
+	}
+	main.cards section.card h3 {
+			top: 0%;
+			font-size: 23px;
+			width: 250px;
+			text-align: left;
+	}
+}
+
+/* para a tela do celular sumir a logo petrobras*/
+@media (max-width: 800px) {
+  	#retangulo {
+    	display: none;
+  	}
+  	#petrobras {
+    	display: none;
+  	}
+  	#aba_informacao{
+    	display: none;
+  	}
+  	#img_cabecalho{
+		background-image: url(../img_pgCampo/img_campo_cabecalho_telaMenor.png);
+  	}
+}
+
+@media (max-width: 660px) {
+	#escrita_cabecalho p{
+		font-size: 20px;
+	}
+	#escrita_cabecalho h2{
+		font-size: 45px;
+	}
+}
+
+/* para quando a tela ficar pequena os cards ficarem menores */
+@media (max-width: 555px) {
+	#escrita_cabecalho h2{
+		width: 100px;
+		padding-top: 0;
+		margin-top: 130px;
+	}
+	#escrita_cabecalho p{
+		margin-top: 50px;
+		padding-top: 0;
+		margin-top: 235px;
+	}
+}
+
+@media (max-width:500px){
+	main.cards{
+		gap: 50px;
+		margin-top: 50px;
+	}
+	main.cards section.card{
+		padding: 0 4rem 0 0;
+		max-width: 300px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        max-height: 242px;
+    }
+    main.cards section.card .imagens {
+        width:300px;
+        height: 242px;
+    }
+	/* Para que a escrita e o botao fique alinhado no card menor */
+	main.cards section.card h3 {
+		top: 0%;
+		font-size: 20px;
+		width: 200px;
+		text-align: left;
+	}	
+	main.cards section.card button {
+		z-index: 2;
+		height: 40px;
+		margin-top: 10px; 
+		width: 100px;	
+		font-size: 12px;
+	}
+	main.cards section.card #escrita_card{
+		gap: 2px;
+		width: 300px;
+	}
+}
+@media (max-width: 400px) {
+	main.cards section.card{
+		max-width: 250px;
+        max-height: 202px;
+    }
+	#escrita_cabecalho p{
+		font-size: 16px;
+		margin-top: 240px;
+	}
+	#escrita_cabecalho h2{
+		font-size: 40px;
+		margin-top: 150px;
+	}
+    main.cards section.card .imagens {
+         width:250px;
+         height: 202px;
+    }
+	main.cards section.card h3 {
+		font-size: 18px;
+		width: 150px;
+		text-align: left;
+	}
+	main.cards section.card button {
+		z-index: 2;
+		height: 40px;
+		margin-top: 10px; 
+		width: 96px;	
+		font-size: 10px;
+	}
+	main.cards section.card #escrita_card{
+		width: 250px;
+	}
+}
+@media (max-width: 375px) {
+	#escrita_cabecalho p{
+		margin-top: 220px;
+		width: 90px;
+	}
+	#escrita_cabecalho h2{
+		font-size: 38px;
+	}
+}
+

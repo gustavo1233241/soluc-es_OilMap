@@ -1,0 +1,318 @@
+#retangulo{
+    top: 0%;
+    position: absolute;
+}
+
+#petrobras{
+    position: absolute;
+    padding: 35px;
+    margin-left: 70px;
+}
+
+#aba_informacao{
+    position: absolute;
+    top: 40px;
+    height: 7%;
+}
+
+#img_cabecalho{
+    background-image: url(img_pgBacia/img_bacia_cabecalho.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 276px;
+}
+
+#escrita_cabecalho p{
+    font-size: 25px;
+    display: flex;
+    padding-top: 235px;
+    margin-right: 20px;
+}
+
+#escrita_cabecalho h2{
+    font-size: 50px;
+    display: flex;
+    padding-top: 200px;
+    margin-left: 20px;
+}
+
+#escrita_cabecalho {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #F6F9FF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #F6F9FF;
+} 
+
+main.cards {
+    margin: 90px 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #178864;
+    padding: 0 32px 0 0;
+    max-height: 322.89px;
+}
+
+main.cards section.card .imagens {
+    width:400px;
+    height: 400px;
+}
+
+main.cards section.card img {
+    width: 100%;
+    height: 322.89px;
+}
+
+main.cards section.card h3 {
+    margin: 16px 0;
+    color: #000000;
+    font-size: 25px;
+}
+    
+main.cards section.card button {
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 800;
+    color: #178864;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+}
+
+main.cards section.card button:hover {
+    color: #051C4A;
+}
+  
+  
+  @media (max-width: 1630px) {
+      main.cards{
+        flex-direction: column;
+        gap: 120px;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      main.cards section.card button {
+        margin-top: 18px;
+        width: 150px;
+      } 
+    
+      main.cards section.card h3 {
+            text-align: left;
+            width:250px;
+            font-size: 23px;
+      }
+
+      main.cards section.card #escrita_card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        text-align: left;
+        width: 400px;
+      }
+  }
+
+    @media (max-width: 800px){
+        #img_cabecalho{
+            background-image: url(img_pgBacia/img_bacia_cabecalho_Menor.png);
+        }
+
+        #retangulo {
+            display: none;
+        }
+
+        #petrobras {
+            display: none;
+        }
+
+        #aba_informacao {
+            display: none;
+        }
+    }
+
+    @media (max-width: 770px){
+        #escrita_cabecalho p{
+            font-size: 20px;
+        }
+        
+        #escrita_cabecalho h2{
+            font-size: 45px;
+        }
+        
+        #escrita_cabecalho{
+            height: 276px;
+        }
+    }
+
+    @media (max-width: 624px){
+        #escrita_cabecalho p{
+            width: 190px;
+            padding-top: 0px;
+            margin-top: 235px;
+            
+        }
+        #escrita_cabecalho h2{
+            width: 250px;
+            padding-top: 0px;
+            margin-top: 130px;
+        }
+    }
+
+    @media (max-width: 500px){
+
+        #escrita_cabecalho p{
+            font-size: 20px;
+        }
+        
+        #escrita_cabecalho h2{
+            font-size: 45px;
+        }
+
+        main.cards{
+            gap:80px;
+            margin-top: 50px;
+        }
+
+        main.cards section.card {
+            padding: 0 4rem 0 0;
+            max-width: 300px;
+            margin-left: 30px;
+            max-height: 242px;
+        }
+
+        main.cards section.card .imagens {
+            width:300px;
+            height: 242px;
+        }
+
+        main.cards section.card #escrita_card{
+            gap: 10px;
+            width: 300px;
+        }
+
+        main.cards section.card h3 {
+            font-size: 18px;
+            text-align: left;
+            width:190px;
+        }
+        
+        main.cards section.card button {
+            font-size: 12px;
+            text-align: center;
+            width: 100px;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+        main.cards section.card img {
+            height: 242px;
+        }
+    }
+
+    @media (max-width: 460px){
+        #escrita_cabecalho p{
+            font-size: 18px;
+        }
+    }
+
+    @media (max-width: 416px){
+        #escrita_cabecalho p{
+            margin-top: 235px;
+        }
+        
+        #escrita_cabecalho h2{
+            font-size: 40px;
+            width: 210px;
+            margin-top: 145px;
+        }
+    }
+
+    @media (max-width: 400px){
+
+        #escrita_cabecalho p{
+            font-size: 16px;
+        }
+        
+        #escrita_cabecalho h2{
+            font-size: 38px;
+        }
+
+        main.cards{
+            gap:100px;
+        }
+
+        main.cards section.card {
+            max-width: 250px;
+            max-height: 202px;
+            margin-left: 50px;
+        }
+
+        main.cards section.card .imagens {
+            width:250px;
+            height: 202px;
+        }
+
+        main.cards section.card #escrita_card{
+            width: 250px;
+        }
+
+        main.cards section.card h3 {
+            font-size: 18px;
+            text-align: left;
+            width:150px;
+        }
+        
+        main.cards section.card button {
+            font-size: 10px;
+            text-align: center;
+            width: 100px;
+            height: 40px;
+        }
+        main.cards section.card img {
+            height: 202px;
+        }
+    }
+
+    @media (max-width: 378px){
+        #escrita_cabecalho h2{
+            margin-top: 150px;
+        }
+        #escrita_cabecalho p{
+            width: 100px;
+            margin-top: 210px;
+
+        }
+    }
+
+    @media (max-width: 341px){
+        #escrita_cabecalho p{
+            font-size: 14px;
+            width: 90px;
+            margin-top: 220px;
+        }
+        #escrita_cabecalho h2{
+            width: 200px;
+        }
+    }

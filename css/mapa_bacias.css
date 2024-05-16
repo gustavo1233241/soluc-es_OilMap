@@ -1,0 +1,589 @@
+section.card {
+  width: 240px;
+  height: 120px;
+  background: #F6F9FF;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  text-align: center;
+  transform: translate(100px, -50px);
+}
+
+section.card #titulo_sugestao{
+  background: #178864;
+  height: 50px;
+  border-radius: 12px 12px 0 0;
+}
+
+section.card #titulo_sugestao img{
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
+}
+
+section.card #titulo_sugestao h2{
+  color: #F6F9FF;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  width: 140px;
+  height: 40px;
+  margin: 0 0 0 50px;
+}
+
+section.card #texto_sugestao p{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  width: 180px;
+  justify-content: center;
+  padding: 0 20px 0 30px;
+}
+
+.mapa_brasil {
+  align-items: center;
+}
+  
+.bacias path:hover {
+  fill: #178864;
+}
+
+#camadaInferior{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #cccccc00;
+display: none;
+z-index: 999;
+}
+
+.cards_bacias {
+  position: fixed;
+  top: 100%;
+  display: none;
+  transform: translate(400px, -500px); 
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  border-radius: 20px 20px 0 0;
+  transition: height 5s;
+}
+
+.cards_bacias_tm {
+  position: fixed;
+  top: 100%;
+  display: none;
+  transform: translate(400px, -500px); 
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  border-radius: 20px 20px 0 0;
+  transition: height 5s;
+}
+
+.cards_bacias .btn_close{
+	color: #178864;
+	background: #F6F9FF;
+	float: right;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+.cards_bacias_tm .btn_close{
+	color: #178864;
+	background: #F6F9FF;
+	float: right;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+#Card_Acre{
+  background-image: url(../img_cardsBacias/Acre.png);
+  z-index: 1;
+}
+
+#Card_Altotapajos{
+  background-image: url(../img_cardsBacias/Alto_Tapajós.png);
+  z-index: 1;
+}
+
+#Card_Almada{
+  background-image: url(../img_cardsBacias/Almada.png);
+  z-index: 1;
+}
+
+#Card_Amazonas{
+  background-image: url(../img_cardsBacias/Amazonas.png);
+}
+
+#Card_Araripe{
+  background-image: url(../img_cardsBacias/Araripe.png);
+}
+
+#Card_Bananal{
+  background-image: url(../img_cardsBacias/Bananal.png);
+}
+
+#Card_Barreirinhas{
+  background-image: url(../img_cardsBacias/Barreirinhas.png);
+}
+
+#Card_Barreirinhas_Terra{
+  background-image: url(../img_cardsBacias/Barreirinhas_Terra.png);
+}
+
+#Card_Braganca_Vizeu{
+  background-image: url(../img_cardsBacias/Bragança.png);
+}
+
+#Card_Camamu{
+  background-image: url(../img_cardsBacias/Camamu.png);
+}
+
+#Card_Campos{
+  background-image: url(../img_cardsBacias/Campos.png);
+}
+
+#Card_Campos_Terra{
+  background-image: url(../img_cardsBacias/CamposT.png);
+}
+
+#Card_Cumuruxatiba{
+  background-image: url(../img_cardsBacias/Cumuruxatiba.png);
+}
+
+#Card_Ceara{
+  background-image: url(../img_cardsBacias/Ceara.png);
+}
+
+#Card_Espirito{
+  background-image: url(../img_cardsBacias/Espirito_Santo.png);
+}
+
+#Card_Espírito_Santo_Terra{
+  background-image: url(../img_cardsBacias/Espirito_Santo_Terra.png);
+}
+
+#Card_FozAmazonas{
+  background-image: url(../img_cardsBacias/Foz_Do_Amazonas.png);
+}
+
+#Card_Itaborai{
+  background-image: url(../img_cardsBacias/Itaboraí.png);
+}
+
+#Card_Jatoba{
+  background-image: url(../img_cardsBacias/Jatobá.png);
+}
+
+#Card_Jequitinhonha{
+  background-image: url(../img_cardsBacias/Jequitinhonha.png);
+}
+
+#Card_Jequitinhonha_Terra{
+  background-image: url(../img_cardsBacias/Jequitinhonha_Terra.png);
+}
+
+#Card_Marajo{
+  background-image: url(../img_cardsBacias/Marajó.png);
+}
+
+#Card_Mucuri{
+  background-image: url(../img_cardsBacias/Mucuri.png);
+}
+
+#Card_Pantanal{
+  background-image: url(../img_cardsBacias/Pantanal.png);
+}
+
+#Card_Para_Maranhao{
+  background-image: url(../img_cardsBacias/Para_Maranhao.png);
+}
+
+#Card_Parana{
+  background-image: url(../img_cardsBacias/Parana.png);
+}
+
+#Card_Parecis{
+  background-image: url(../img_cardsBacias/Parecis.png);
+}
+
+#Card_Parnaiba{
+  background-image: url(../img_cardsBacias/Parnaiba.png);
+}
+
+#Card_Parecis{
+  background-image: url(../img_cardsBacias/Parecis.png);
+}
+
+#Card_Pelotas{
+  background-image: url(../img_cardsBacias/Pelotas.png);
+}
+
+#Card_Pernambuco_Paraiba{
+  background-image: url(img_cardsBacias/Pernambuco_Paraíba.png);
+}
+
+#Card_Pernambuco_Paraiba_Terra{
+  background-image: url(../img_cardsBacias/Pernambuco-Paraiba_Terra.png);
+}
+
+#Card_Potiguar{
+  background-image: url(../img_cardsBacias/Potiguar.png);
+}
+
+#Card_Potiguar_Terra{
+  background-image: url(../img_cardsBacias/Potiguar_Terra.png);
+}
+
+#Card_Reconcavo{
+  background-image: url(../img_cardsBacias/Reconcavo.png);
+}
+
+#Card_Santos{
+  background-image: url(../img_cardsBacias/Santos.png);
+}
+
+#Card_Sao_Francisco{
+  background-image: url(../img_cardsBacias/Sao_Francisco.png);
+}
+
+#Card_Sao_Luis{
+  background-image: url(../img_cardsBacias/Sao_Luis.png);
+}
+
+#Card_Sao_Luis_Grajau{
+  background-image: url(../img_cardsBacias/Sao_Luiz_Grajau.png);
+}
+
+#Card_Sergipe_Alagoas{
+  background-image: url(../img_cardsBacias/Sergipe_Alagoas.png);
+}
+
+#Card_Sergipe_Alagoas_Terra{
+  background-image: url(../img_cardsBacias/Sergipe_Alagoas_Terra.png);
+}
+
+#Card_Solimoes{
+  background-image: url(../img_cardsBacias/Solimoes.png);
+}
+
+#Card_Tacutu{
+  background-image: url(../img_cardsBacias/Tacutu.png);
+}
+
+#Card_Taubate{
+  background-image: url(../img_cardsBacias/Taubaté.png);
+}
+
+#Card_Tucano{
+  background-image: url(../img_cardsBacias/Tucano.png);
+}
+
+.bacia_br {
+  transform: translate(0px, 141px);
+  width: 300px;
+  height: 48px;
+  background-color:white;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 0px 1px 0.3px;
+  transition: width 0.25s, height 0.20s;
+}
+
+.bacia_br h1{
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  padding: 5px 5px 5px 5px;
+  height: 17px;
+}
+
+.links_bacias{
+  position: absolute;
+  right: 10px;
+  top: 11px;
+  color: #178864;
+  margin: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.cards_bacias_tm .links_bacias{
+  top: 20px;
+}
+
+.cards_bacias_tm .bacia_br h1{ 
+  font-size: 16px;
+}
+
+#Card_Pernambuco_Paraiba_Terra h1{
+	font-size: 15px;
+}
+
+.linha {
+  width: 150px;
+  border: 2px solid #178864;
+  position: relative;
+  bottom: 17px;
+  right: -0.2em;
+}
+
+@media (max-width: 1630px){
+  .cards_bacias {
+    transform: translate(300px, -500px); 
+  }
+  .cards_bacias_tm {
+    transform: translate(300px, -500px); 
+  }
+}
+
+@media (max-width: 1400px){
+  .cards_bacias {
+    transform: translate(200px, -500px); 
+  }
+  .cards_bacias_tm {
+    transform: translate(200px, -500px); 
+  }
+}
+
+@media (max-width: 1200px){
+  .cards_bacias {
+    transform: translate(100px, -500px); 
+  }
+  .cards_bacias_tm {
+    transform: translate(100px, -500px); 
+  }
+}
+
+@media (max-width: 1000px){
+  .cards_bacias {
+    transform: translate(50px, -500px); 
+  }
+  .cards_bacias_tm {
+    transform: translate(50px, -500px); 
+  }
+}
+
+@media (max-width: 900px){
+  .cards_bacias {
+    transform: translate(30px, -500px);
+    width: 250px;
+    height: 80px;
+  }
+
+  .cards_bacias_tm {
+    transform: translate(30px, -500px);
+    width: 250px;
+    height: 80px;
+  }
+  
+  .cards_bacias_tm .bacia_br h1{ 
+    font-size: 14px;
+  }
+  
+  #Card_Pernambuco_Paraiba_Terra h1{
+	font-size: 14px;
+}
+  
+  .cards_bacias_tm .links_bacias{
+    top: 12px;
+  }
+    
+  .bacia_br {
+    width: 250px;
+    height: 45px;
+  }
+  
+  .bacia_br h1{
+    font-size: 15px;
+    height: 15px;
+  }
+    
+  .links_bacias{
+    font-size: 12px;
+    right: 5px;
+    top: 10px;
+    margin: 8px;
+  }
+    
+  .linha{
+    width: 120px;
+  }
+  
+  #Card_Pernambuco_Paraiba_Terra .linha{
+	width: 90px;
+    border: 1.5px solid #178864;
+    bottom: 5px;
+    right: -0.7em;
+  }
+
+  section.card {
+    transform: translate(30px, -50px);
+  }
+}
+
+@media(max-width: 750px){
+  .cards_bacias {
+    transform: translate(430px, -270px);
+  }
+
+  .cards_bacias_tm {
+    transform: translate(430px, -270px);
+  }
+
+  section.card{
+    transform: translate(10px, -250px);
+  }
+}
+
+@media (max-width: 700px){
+  section.card{
+    width: 210px;
+    transform: translate(10px, -250px);
+  }
+
+  section.card #titulo_sugestao{
+    height: 45px;
+  }
+
+  section.card #titulo_sugestao h2{
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+    margin: 0 0 0 40px;
+  }
+
+  section.card #texto_sugestao p{
+    font-size: 14px;
+    width: 150px;
+    padding: 0 30px 0 30px;
+  }
+
+  .cards_bacias {
+    transform: translate(10px, -300px);
+  }
+
+  .cards_bacias_tm {
+    transform: translate(10px, -300px);
+  }
+}
+
+@media (max-width: 600px){
+  section.card{
+    width: 180px;
+    transform: translate(5px, -250px);
+  }
+
+  section.card #titulo_sugestao{
+    height: 40px;
+  }
+
+  section.card #titulo_sugestao h2{
+    margin: 0 0 0 25px;
+  }
+
+  section.card #titulo_sugestao img{
+    width: 30px;
+    height: 30px;
+  }
+
+  section.card #texto_sugestao p{
+    width: 130px;
+    padding: 0 25px 0 25px;
+  }
+}
+
+@media(max-width: 500px){
+  section.card{
+    width: 140px;
+    transform: translate(5px, -260px);
+  }
+
+  section.card #titulo_sugestao h2{
+    width: 120px;
+    margin: 0 0 0 10px;
+  }
+
+  section.card #texto_sugestao p{
+    font-size: 13px;
+    padding: 0 5px 0 5px;
+  }
+
+  .cards_bacias {
+    transform: translate(5px, -320px);
+    width: 220px;
+  }
+
+  .cards_bacias_tm {
+    transform: translate(5px, -320px);
+    width: 220px;
+  }
+
+  .bacia_br {
+    width: 220px;
+    height: 43px;
+  }
+
+  .links_bacias{
+    right: 3px;
+    top: 16px;
+  }
+
+  .cards_bacias_tm .links_bacias{
+    right: 3px;
+    top: 16px;
+  }
+
+   #Card_FozAmazonas .linha{
+	   bottom: 18px;
+   }
+   
+  .cards_bacias_tm .linha{
+    width: 90px;
+    border: 1.5px solid #178864;
+    bottom: 5px;
+    right: -0.6em;
+  }
+
+  .linha{
+    width: 100px;
+  }
+}
+
+@media(max-width: 400px){
+  section.card{
+    transform: translate(10px, -620px);
+    height: 100px;
+  }
+
+  section.card #titulo_sugestao h2{
+    width: 120px;
+    margin: 0 0 0 10px;
+    font-size: 16px;
+  }
+
+  section.card #texto_sugestao p{
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+  }
+	
+   .cards_bacias {
+    transform: translate(10px, -360px);
+    width: 200px;
+  }
+
+  .cards_bacias_tm {
+    transform: translate(10px, -360px);
+    width: 200px;
+  }
+
+  .bacia_br {
+    width: 200px;
+    height: 40px;
+  }
+  
+  .linha{
+	  display: none;
+  }
+}

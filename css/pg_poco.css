@@ -1,0 +1,611 @@
+.tooltip {
+    position: absolute;
+    display: inline-block;
+    left: 635px;
+	top: 210px;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: white;
+    color: #051C4A;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 20px 20px 20px;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    font-weight:bold;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    top: 50px;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#retangulo{
+	top: 0%;
+	position: absolute;
+}
+
+#petrobras{
+	position: absolute;
+	padding: 35px;
+	margin-left: 70px;
+}
+
+#aba_informacao{
+	position: absolute;
+	top: 40px;
+	height: 7%;
+}
+
+#cabecalho{
+	background-image: url(../img_pgBacia/img_bacia_cabecalho.png);	
+}
+
+#escrita_cabecalho p{
+    text-align: right;
+    font-size: 25px;
+    display: flex;
+	padding-top: 235px;
+	margin-right: 50px;
+}
+
+#escrita_cabecalho h2{
+    text-align: right;
+    font-size: 50px;
+    display: flex;
+	padding-top: 200px;
+	margin-left: 20px;
+}
+
+#escrita_cabecalho {
+    display: flex;
+    justify-content: space-between;
+	flex-direction: row;
+	color: #F6F9FF;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+	background: #F6F9FF;
+} 
+
+
+#texto_reservatorio sup{
+	font-size: 15px;
+}
+
+#informacoes_poco{
+	position: relative;
+	min-height: 674px;
+}
+
+#img_texto{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 200px;
+	padding-top: 100px;
+}
+
+.detalhes_poco{
+	font-size: 25px;
+	text-align: left;	
+	margin-top: 60px;
+}
+#img_poco{
+	width: 575px;
+	height: 480px;
+	display: flex;
+	flex-direction: row;
+	gap: 30px;	
+}
+
+#img_poco1{
+	height: 350px;
+} 
+
+#img_poco2{
+	height: 450px;
+	margin-top: 30px;
+} 
+
+#inf_instalacao_reservatorio{
+	position: relative;
+	background-color: #178864;
+}
+
+#inf_instalacao{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 90px;
+	padding-top: 100px;
+	position: relative;
+}
+
+#texto_instalacao{
+	font-size: 25px;
+	text-align: left;	
+	top: 0%;
+	color:#FFFFFF;
+	margin-left: 50px;
+}
+
+#texto_instalacao p{
+	margin-left: 40px;
+	width: 574px;
+}
+
+#img_instalacao{
+	z-index: 2;
+	height: 380px;
+}
+
+#inf_reservatorio{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap:90px;
+	padding-top: 100px;
+	position: relative;	
+}
+
+#texto_reservatorio{
+	font-size: 25px;
+	text-align: left;	
+	top: 0%;
+	color:#FFFFFF;
+	margin-right: 30px;
+}
+
+#texto_reservatorio p{
+	margin-left: 40px;
+}
+
+#img_reservatorio{
+	z-index: 2;
+	height: 380px;
+	margin-bottom: 50px;
+	margin-left: 30px;
+}
+
+#img_instalacao2{
+	display: none;
+}
+
+@media(max-width:1570px){
+	#inf_instalacao{
+		gap:50px ;
+	}
+	#texto_instalacao p{
+		width: 500px;
+	}
+}
+@media (max-width:1340px){
+	#img_instalacao{
+		height: 300px;
+	}
+
+ 	#img_reservatorio{
+		height: 300px;
+ 	}
+
+	 #img_poco1{
+		height: 300px;
+
+	} 
+	#img_poco2{
+		height: 400px;
+	}
+	#img_texto{
+		gap: 100px;
+	}
+}
+
+@media (max-width:1225px){
+	#texto_instalacao p{
+		font-size: 22px;
+	}
+
+	#texto_reservatorio p{
+		font-size: 22px;
+	}
+	.detalhes_poco{
+		font-size: 22px;
+	}
+}
+
+@media(max-width:1130px){
+	#img_instalacao{
+		margin-right: 30px;
+	}
+	#inf_reservatorio{
+		gap:80px;
+	}
+	#texto-instalacao{
+		margin-left: 30px;
+	}
+}
+
+@media(max-width:1112px){
+	#img_instalacao{
+		height: 250px;
+	}
+
+ 	#img_reservatorio{
+		height: 250px;
+ 	}
+	 #img_poco1{
+		height: 250px;
+
+	} 
+	#img_poco2{
+		height: 350px;
+	}
+	#img_poco{
+		width: 450px;
+		height: 380px;
+	}
+	#img_texto{
+		padding-top: 120px;
+	}
+	#texto_reservatorio p{
+		margin-bottom: 30px;
+	}
+}
+@media(max-width:1000px){
+	#texto_instalacao p{
+		width: 400px;
+	}
+	#texto_instalacao{
+		margin-left: 0px;
+	}
+	#inf_instalacao{
+		gap:80px ;
+	}
+}
+@media (max-width:972px){
+	#texto_instalacao p{
+		font-size: 20px;
+	}
+
+	#texto_reservatorio p{
+		font-size: 20px;
+	}
+	.detalhes_poco{
+		font-size: 20px;
+	}
+}
+
+@media(max-width:921px){
+	#img_instalacao{
+		height: 220px;
+	}
+
+ 	#img_reservatorio{
+		height: 220px;
+ 	}
+	 #img_poco1{
+		height: 220px;
+
+	} 
+	#img_poco2{
+		height: 320px;
+	}
+	#img_poco{
+		width: 400px;
+		height: 350px;
+	}
+
+	#inf_instalacao{
+		gap: 40px;
+	}
+
+	#inf_reservatorio{
+		padding-top: 80px;
+	}
+}
+@media (max-width:871px){
+	#img_texto{
+		gap: 50px;
+	}
+	#inf_reservatorio{
+		gap:20px;
+	}
+	#texto_reservatorio p{
+		margin-left: 30px;
+	}
+	#texto_instalacao p{
+		margin-left: 30px;
+	}
+	#texto_instalacao{
+		margin-left: 40px;
+	}
+}
+
+@media (max-width:841px){
+	#texto_reservatorio p{
+		width: 350px;
+	}
+	#img_texto{
+		padding-top: 140px;
+	}
+}
+
+@media (max-width: 800px){
+	#retangulo {
+		display: none;
+	}
+
+	#petrobras {
+		display: none;
+	}
+
+	#aba_informacao {
+		display: none;
+	}
+	#img_poco2{
+		height: 280px;
+	}
+	#img_poco{
+		width: 360px;
+		gap:20px ;
+	}
+	#img_texto{
+		gap: 30px;
+	}
+	#inf_instalacao{
+		gap: 20px;
+	}
+	#texto_instalacao p{
+		width: 350px;
+	}
+}
+
+@media(max-width: 760px){
+    #img_reservatorio{
+        width: 305.81px;
+        height: 220px;
+		margin-left: 20px;
+    }
+    #texto_reservatorio{
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    #texto_reservatorio p{
+        width: 280px;
+    }
+    #texto_instalacao p{
+        width: 290px;
+    }
+     #inf_reservatorio{
+        gap:10px;
+    } 
+    #inf_instalacao{
+        gap: 20px;
+    }
+    #img_poco2{
+        height: 250px;
+    }
+    #img_poco{
+        width: 330px;
+        gap: 10px;
+    }
+    #img_texto{
+        gap: 20px;
+    }
+} 
+
+@media(max-width: 700px){
+    #img_poco1{
+        display: none;
+    }
+    #img_poco{
+        width: 207px;
+    }
+	#img_poco2{
+        height: 300px;
+    }
+	#img_texto{
+        gap: 50px;
+		padding-top: 100px;
+    }
+	#cabecalho{
+		background-image: url(../img_pgPoco/img_cabecalho_poco_MENOR.jpg);
+	}
+
+}
+
+@media(max-width: 670px){
+    #img_reservatorio{
+        display: none;
+    }
+	#inf_reservatorio{
+        justify-content: left;
+    } 
+	#inf_instalacao{
+        justify-content: left;
+    }
+	#texto_reservatorio p{
+        width: 470px;
+    }
+	#texto_reservatorio{
+		margin-left: 40px;	
+    }
+	#texto_instalacao p{
+        width: 470px;	
+    }
+	#texto_instalacao{
+       margin-bottom: 80px;	
+    }
+	#img_instalacao2{
+		display: block;
+		height: 275px;
+		text-align: center;
+		margin: auto
+	}
+	#img_instalacao{
+		display: none;
+	}
+	#escrita_cabecalho h2{
+		width: 350px;
+		text-align: left;
+		padding-top: 124px;
+		font-size: 45px;
+	}
+	.tooltip{
+		left: 370px;
+		top: 124px;
+	}
+	.tooltip .tooltiptext{
+		width: 300px;
+		top: 120px;
+	}
+}
+@media(max-width:620px){
+	#img_texto{
+		gap:30px;
+	}
+}
+
+@media(max-width:600px){
+	#img_poco2{
+        height: 250px;
+		margin-top: 55px;
+    }
+	#img_poco{
+         width: 173px;
+    }
+}
+
+@media(max-width:560px){
+	.detalhes_poco{
+		font-size: 18px;
+	}
+	#texto_instalacao p{
+		font-size: 18px;
+		width: 420px;
+	}
+	#texto_reservatorio p{
+		font-size: 18px;
+		width: 420px;
+	}
+	#img_texto{
+		gap:15px;
+	}
+}
+
+@media (max-width:500px){
+	#img_poco1{
+		display: none;
+	}
+	#img_poco2{
+		display: none;
+	}
+	#img_poco{
+		display: none;
+	}
+	#img_instalacao{
+		display: none;
+	}
+	#img_reservatorio{
+		display: none;
+	}
+	#img_texto{
+		align-items: center;
+	}
+	#texto_instalacao p{
+	width: 325px;
+	}
+	#texto_reservatorio p{
+	width: 360px;
+	}
+	
+}
+@media (max-width:450px){
+	#texto_reservatorio p{
+		width: 310px;
+	}
+	#img_instalacao2{
+		height: 250px;
+	}
+}
+
+@media (max-width:410px){
+	#texto_reservatorio p{
+		margin-left: 0px;
+	}
+	#texto_reservatorio h2{
+		font-size: 33px;
+	}
+	#texto_instalacao p{
+		margin-left: 0px;
+	}
+	#texto_instalacao h2{
+		font-size: 33px;
+	}
+	#escrita_cabecalho h2{
+		font-size: 38px;
+		width: 290px;
+	}
+	.tooltip{
+		left: 310px;
+		width: 20px;
+	}
+	.tooltip .tooltiptext{
+		width: 280px;
+		top: 105px;
+	}
+}
+
+@media(max-width:370px){
+	#img_instalacao2{
+		height: 200px;
+	}
+	#texto_reservatorio p{
+		font-size: 16px;
+		width: 280px;
+	}
+	#texto_instalacao p{
+		font-size: 16px;
+		width: 290px;
+	}
+	.detalhes_poco{
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	#informacoes_poco{
+		min-height: 450px;
+	}
+}
+
+@media(max-width:330px){
+	#escrita_cabecalho h2{
+		font-size: 35px;
+		width: 270px;
+	}
+	#texto_instalacao{
+		margin-left: 20px;
+	}
+	#texto_reservatorio{
+		margin-left: 20px;
+	}
+	.tooltip{
+		left: 290px;
+	}
+	.tooltip .tooltiptext{
+		top: 100px;
+	}
+}

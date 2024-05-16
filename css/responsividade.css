@@ -1,0 +1,318 @@
+/* BOTÕES ACESSIBILIDADE */
+
+@media(max-width:1750px) {
+    .font-buttons-container {
+        margin-left: 68%;
+    }
+}
+
+@media(max-width:1600px) {
+    .font-buttons-container {
+        margin-left: 65%;
+    }
+}
+
+@media(max-width:1400px) {
+    .font-buttons-container {
+        margin-left: 63%;
+    }
+}
+
+@media(max-width:1300px) {
+    .font-buttons-container {
+        margin-left: 60%;
+    }
+}
+
+@media(max-width:1200px) {
+    .font-buttons-container {
+        margin-left: 58%;
+    }
+
+    #retangulo {
+        width: 580px;
+    }
+
+    #petrobras {
+        width: 380px;
+    }
+}
+
+@media(max-width:1100px) {
+    .font-buttons-container {
+        margin-left: 56%;
+    }
+
+}
+
+
+@media(max-width:1000px) {
+    .font-buttons-container {
+        margin-left: 54%;
+    }
+
+    #retangulo {
+        width: 500px;
+    }
+
+    #petrobras {
+        width: 300px;
+    }
+
+    .menu-verde {
+        width: 80px;
+        /* margin-top: 30px ; */
+        margin-left: -10px;
+    }
+}
+
+@media(max-width:950px) {
+    .font-buttons-container {
+        margin-left: 52%;
+    }
+
+    #retangulo {
+        width: 400px;
+    }
+
+    #petrobras {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .menu-verde {
+        width: 70px;
+    }
+}
+
+@media(max-width:900px) {
+    .font-buttons-container {
+        margin-left: 50%;
+    }
+
+}
+
+@media(max-width:850px) {
+    .font-buttons-container {
+        margin-left: 48%;
+    }
+
+}
+
+@media(max-width:800px) {
+    .menu-verde {
+        display: none;
+    }
+
+    #retangulo {
+        display: none;
+    }
+
+    #petrobras {
+        display: none;
+    }
+
+    .font-buttons-container {
+        display: none;
+    }
+
+    .circle-button {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    #pesquisa {
+        display: none;
+    }
+}
+/*-----------------------------*/
+
+
+
+
+
+
+/* TÍTULO */
+
+/* @media(max-width:1250px) {
+    #titulo {
+        margin-right: -60px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:1200px) {
+    #titulo {
+        margin-right: -80px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:950px) {
+    #titulo {
+        margin-right: -80px;
+        margin-bottom: 50px;
+    }
+}
+*/
+
+@media(max-width:800px) {
+    #titulo {
+     margin-top: -10%; 
+    }
+} 
+
+@media(max-width:700px) {
+    #titulo {
+     margin-top: -10%;
+     font-size: 50px;
+    }
+} 
+
+@media(max-width:550px) {
+    #titulo {
+     margin-top: -10%;
+     font-size: 45px;
+    }
+} 
+
+
+@media(max-width:470px) {
+    #titulo {
+     margin-top: -15%;
+    
+     font-size: 38px;
+    }
+} 
+
+@media(max-width:400px) {
+    #titulo {
+     margin-top: -15%;
+     
+     font-size: 35px;
+    }
+} 
+
+@media(max-width:380px) {
+    #titulo {
+     margin-top: -15%;
+    
+     
+     font-size: 35px;
+    }
+} 
+
+@media(max-width:375px) {
+    #titulo {
+     margin-top: -15%;
+     
+     
+     font-size: 32px;
+    }
+} 
+
+
+
+
+
+
+/*-----------------------------*/
+
+/* ONDA VERDE */
+
+
+
+@media(max-width:1200px) {
+    #verde2 {
+        margin-top: 200px;
+        width: 100%;
+
+    }
+}
+
+@media(max-width:1150px) {
+    #verde2 {
+        margin-top: 150px;
+        width: 100%;
+
+    }
+}
+
+@media(max-width:850px) {
+    #verde2 {
+        margin-top: 128px;
+
+    }
+}
+
+@media(max-width:790px) {
+    #verde2 {
+        margin-top: 110px;
+
+    }
+}
+
+
+/* @media(max-width:775px) {
+    #verde2 {
+        margin-top: 130px;
+
+    }
+} */
+
+/* @media(max-width:702px) {
+    #verde2 {
+        margin-top: 120px;
+
+    }
+} */
+
+@media(max-width:673px) {
+    #verde2 {
+        margin-top: 100px;
+
+    }
+}
+/* 
+@media(max-width:630px) {
+    #verde2 {
+        margin-top: 110px;
+
+    }
+} */
+
+@media(max-width:605px) {
+    #verde2 {
+        margin-top: 90px;
+
+    }
+}
+
+@media(max-width:540px) {
+    #verde2 {
+        margin-top: 70px;
+
+    }
+}
+
+@media(max-width:410px) {
+    #verde2 {
+        margin-top: 50px;
+
+    }
+}
+
+
+/*-----------------------------*/
+
+/* ROLIN "ROLE PARA BAIXO" */
+
+@media(max-width:800px){
+    #rolin{
+        display: none;
+  
+    }
+}
