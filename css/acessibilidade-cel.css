@@ -123,8 +123,10 @@
         left: 5px;
     }
 
+/* alterei font-size do letra2 para 15px */
+
     .letra2 {
-        font-size: 22px;
+        font-size: 15px;
     }
 
     .acessibilidade-cel {
@@ -169,9 +171,10 @@
         display: flex;
     }
 
-
+/* alterei font-size de letra para 20px */
     .letra {
-        font-size: 40px;
+        font-size: 20px;
+        
     }
 }
 

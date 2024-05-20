@@ -87,8 +87,10 @@ html.removeAttribute('class','corpo')
 }
 });
 
+//alterei a var html1 para valor 'body'
 
-var html1 = document.querySelector('html')
+
+var html1 = document.querySelector('body')
 const btnletra1=document.querySelector('#btnAcessibilidadeletra1');
 
 console.log(btnletra1)
